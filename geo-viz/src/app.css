@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--color-excellent: #1a9850;
+	--color-good: #91cf60;
+	--color-fair: #d9ef8b;
+	--color-marginal: #fee08b;
+	--color-poor: #fc8d59;
+	--color-bad: #d73027;
+}
+
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.maplibregl-map {
+	font-family: inherit;
+}
